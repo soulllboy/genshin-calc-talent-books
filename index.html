@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Genshin Books Calculator</title>
+    <link rel="shortcut icon" type="image/jpg" href="assets/favicon.ico" />
+    <link rel="stylesheet"
+    href=https://meyerweb.com/eric/tools/css/reset/reset.css>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e4b7b68f80.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header_main"></header>
+    <main class="container_main">
+      <section class="container_input">
+        <div class="input_field">
+          <img src="assets/pics/resist_legendary.png" />
+          <input
+            type="text"
+            onkeypress="validate(event)"
+            id="input_legenfary"
+          />
+        </div>
+        <div class="input_field">
+          <img src="assets/pics/resist_rare.png" />
+          <input type="text" onkeypress="validate(event)" id="input_rare" />
+        </div>
+        <div class="input_field">
+          <img src="assets/pics/resist_common.png" />
+          <input type="text" onkeypress="validate(event)" id="input_common" />
+        </div>
+      </section>
+
+      <section class="container_output">
+        <div class="output_field">
+          <div class="butn_default butn_small" onclick="deductLegendary()">
+            -
+          </div>
+          <p id="output_legenfary">0</p>
+          <div class="butn_default butn_small" onclick="addLegendary()">+</div>
+        </div>
+        <div class="output_field">
+          <div class="butn_default butn_small" onclick="deductRare()">-</div>
+          <p id="output_rare">0</p>
+          <div class="butn_default butn_small" onclick="addRare()">+</div>
+        </div>
+        <div class="output_field">
+          <div class="butn_default butn_small" onclick="deductCommon()">-</div>
+          <p id="output_common">0</p>
+          <div class="butn_default butn_small" onclick="addCommon()">+</div>
+        </div>
+      </section>
+
+      <section class="container_buttons">
+        <div class="butn_default butn_big" onclick="calcSum()">Calc</div>
+        <div class="butn_default butn_big" onclick="convertToGold()">
+          To Gold
+        </div>
+        <div class="butn_default butn_big" onclick="resetAll()">Reset</div>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
