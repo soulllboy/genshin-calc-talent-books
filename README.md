@@ -59,32 +59,33 @@ So this <i>"app"</i> simplifies some of the steps above.
 
 ## Usage
 
+<br />
 That's the app's initial view.
-
+<br />
 <img src="assets\guide\app00.png" />
 
-Let's assume we have three concentrated resins. First dungeon clear rewards us with:
+Let's assume we have three concentrated resins. First dungeon clear rewards us with:<br />
 <img src="assets\guide\expl02.png" />
 
-Enter these result in the input fields:
+Enter these result in the input fields:<br />
 <img src="assets\guide\app01.png" />
 
-Second clear.
+Second clear.<br />
 <img src="assets\guide\expl01.png" />
 
-Add them inline:
+Add them inline:<br />
 <img src="assets\guide\app02.png" />
 
-Third clear.
+Third clear.<br />
 <img src="assets\guide\expl02.png" />
 
-After entering results of the last round we are ready to try out the buttons.
+After entering results of the last round we are ready to try out the buttons.<br />
 <img src="assets\guide\app03.png" />
 
-<b>"Calc"</b> button will show the sum of each input field's digits in the corresponding fields below.
+<b>"Calc"</b> button will show the sum of each input field's digits in the corresponding fields below.<br />
 <img src="assets\guide\app04.png" />
 
-<b>"To Gold"</b> button will transfer book counters to rarer ones.
+<b>"To Gold"</b> button will transfer book counters to rarer ones.<br />
 <img src="assets\guide\app05.png" />
 
 <b>"+" / "-"</b> buttons simply add values to or deduct from counter (deducting from adjacent counters or adding values to them).
