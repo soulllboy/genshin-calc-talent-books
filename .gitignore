@@ -1,5 +1,5 @@
 .gitignore
 assets/icons
 assets/guide/canvas.psd
-style.css.map
-style.scss
+*.map
+*.scss

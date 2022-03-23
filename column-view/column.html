@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Genshin Books Calculator</title>
-    <link rel="shortcut icon" type="image/jpg" href="assets/favicon.ico" />
+    <link rel="shortcut icon" type="image/jpg" href="../assets/favicon.ico" />
     <link rel="stylesheet"
     href=https://meyerweb.com/eric/tools/css/reset/reset.css>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,10 +20,10 @@
   </head>
   <body>
     <header class="header_main"></header>
-    <main class="container_main">
+    <main class="container_main bg-background">
       <section class="container_input">
         <div class="input_field">
-          <img src="assets/pics/resist_legendary.png" />
+          <img src="../assets/pics/resist_legendary.png" />
           <input
             type="text"
             onkeypress="validate(event)"
@@ -31,11 +31,11 @@
           />
         </div>
         <div class="input_field">
-          <img src="assets/pics/resist_rare.png" />
+          <img src="../assets/pics/resist_rare.png" />
           <input type="text" onkeypress="validate(event)" id="input_rare" />
         </div>
         <div class="input_field">
-          <img src="assets/pics/resist_common.png" />
+          <img src="../assets/pics/resist_common.png" />
           <input type="text" onkeypress="validate(event)" id="input_common" />
         </div>
       </section>
@@ -68,7 +68,6 @@
         <div class="butn_default butn_big" onclick="resetAll()">Reset</div>
       </section>
     </main>
-    <a href="column-view/column.html">column version</a>
     <script src="./script.js"></script>
   </body>
 </html>
